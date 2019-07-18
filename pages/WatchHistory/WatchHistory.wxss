@@ -1,0 +1,44 @@
+/* pages/WatchHistory/WatchHistory.wxss */
+
+page{
+  background-color: #f0f0f0;
+ 
+}
+.bigbox{
+font-size: 30rpx;
+color: #999;
+ padding: 20rpx 40rpx;
+}
+.top-title{
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  color: #333;
+}
+.itemlists{
+  display: flex;
+  padding: 25rpx 25rpx;
+  justify-content: space-between;
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  position: relative;
+  margin: 30rpx 0rpx  40rpx;
+}
+.itemlists .timeicon{
+  width: 34rpx;
+  height: 34rpx;
+  position: relative;
+  top: 0rpx;
+}
+.itemlists .right_click{
+  width: 60rpx;
+  height: 55rpx;
+  position: relative;
+  top: 23rpx;
+}
+.flexs{
+display: flex;
+}
+.itemlists text{
+  margin-left: 15rpx;
+}

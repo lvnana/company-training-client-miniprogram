@@ -1,0 +1,42 @@
+
+
+<view class='select_box'>
+  <view class='flex'>
+    <view class='select' catchtap='selectTap'>
+      <text class='select_text'>{{selectData[index]}}</text>
+      <image class='select_img {{show&&"select_img_rotate"}}' src='/images/down_click.png'></image>
+    </view>
+    <text>年</text>
+    <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+      <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+  </view>
+  <view class='flex'>
+    <text>第</text>
+    <view class='select' catchtap='selectTaps'>
+      <text class='select_text'>{{selectDataes[index]}}</text>
+      <image class='select_img {{show&&"select_img_rotate"}}' src='/images/down_click.png'></image>
+    </view>
+    <text>刊</text>
+    <view class='option_boxs' style='height:{{show?(selectDataes.length>5?300:selectDataes.length*60):0}}rpx;'>
+      <text class='option' style='{{index==selectDataes.length-1&&"border:0;"}}' wx:for='{{selectDataes}}' wx:key='this' data-index='{{index}}' catchtap='optionTaps'>{{item}}</text>
+    </view>
+
+  </view>
+
+</view>
+
+
+<navigator class='Issuenum-item' wx:for="{{IssuenumList}}" url='{{item.url}}'>
+  <view class='big_banner'>
+    <image src='{{item.src}}'></image>
+  </view>
+  <view class='flexes'>
+    <view class='issuenum'>{{item.issuenum}}</view>
+    <view>
+      <image src="{{item.readicon}}" class='readicon'></image>
+      <text class='readnum'>{{item.readnum}}</text>
+    </view>
+  </view>
+
+</navigator>

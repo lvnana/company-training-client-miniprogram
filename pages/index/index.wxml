@@ -1,0 +1,179 @@
+<!--index.wxml-->
+
+<view class='bigbox'>
+  <view class='calendar' bindtap='SigninPageTap'>
+    <image src='/images/Signinicon.png'></image>
+    <text>签到</text>
+  </view>
+
+  <view class='top_calendar'>
+    <text class='navbarText'>首页</text>
+  </view>
+
+</view>
+
+<!-- 轮播 -->
+<view class="coursel">
+  <swiper class='indexSwiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="800" indicator-color="#fff" indicator-active-color="#0081ff" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key=''>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- list分类 -->
+<view class='listicon'>
+  <view class="cu-list-top">
+    <navigator class='cu-item' wx:for="{{iconList1}}" url='{{item.url}}'>
+      <view class='icons'>
+        <image src="{{item.src}}"></image>
+      </view>
+      <text>{{item.name}}</text>
+    </navigator>
+
+  </view>
+  <view class="cu-list-bottom">
+    <navigator class='cu-item' wx:for="{{iconList2}}" url='{{item.url}}'>
+      <view class='icons'>
+        <image src="{{item.src}}"></image>
+      </view>
+      <text>{{item.name}}</text>
+    </navigator>
+  </view>
+</view>
+
+<!-- 新闻资讯列表 -->
+<view class='newlist'>
+  <view class='news'>
+    <view class='left'>新闻资讯</view>
+    <view class='right' bindtap='informationTap'>
+      <text>查看更多</text>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+  <navigator class='new-item' wx:for='{{newsList}}' url='{{item.url}}'>
+    <view class='overflow'>{{item.titles}}</view>
+    <view class='datatimes'>
+      <text>{{item.datas}}</text>
+      <text>{{item.times}}</text>
+    </view>
+  </navigator>
+  <!-- <view class='new-item'>
+    <text class='overflow'>[资讯]成都伊藤洋华堂绿地店开业XXXXXXXXX</text>
+    <text class='data'>2018/12.26 17：32</text>
+  </view>
+  <view class='new-item'>
+    <text class='overflow'>[资讯]成都伊藤洋华堂绿地店开业XXXXXXXXX</text>
+    <text class='data'>2018/12.26 17：32</text>
+  </view>
+  <view class='new-item'>
+    <text class='overflow'>[通知]成都伊藤洋华堂绿地店开业XXXXXXXXX</text>
+    <text class='data'>2018/12.26 17：32</text>
+  </view>
+  <view class='new-item'>
+    <text class='overflow'>[通知]成都伊藤洋华堂绿地店开业XXXXXXXXX</text>
+    <text class='data'>2018/12.26 17：32</text>
+  </view> -->
+</view>
+
+<!-- 最新课程列表 -->
+<view>
+
+  <view class='news'>
+    <text class='left'>最新课程</text>
+    <view class='right'>
+      <text>查看更多</text>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+  <navigator class='course-item' wx:for='{{courseList}}' url='{{item.url}}'>
+    <view class='course_banner'>
+      <image src='{{item.src}}'></image>
+    </view>
+    <view class='course-item-right'>
+      <view class='titles'>{{item.title}}</view>
+      <view>{{item.describe}}</view>
+      <view class='flex'>
+        <view class='datatime'>
+          <image src='{{item.timeicon}}'></image>
+          <text>{{item.datatime}}</text>
+        </view>
+        <view class='readnum'>
+          <image src='{{item.readicon}}' class='readicon'></image>
+          <text>{{item.readnum}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<!-- <view class='courselist'>
+  <view class='course'>
+    <text class='left'>最新课程</text>
+    <view class='right'>查看更多
+      <text class='icon-right'>></text>
+    </view>
+  </view>
+  <view class='course-item'>
+    <view class='course_banner'>
+      <image src='/images/course_banner.png'></image>
+    </view>
+    <view class='course-item-right'>
+      <view class='titles'>新员工手册</view>
+      <view>新员工手册文字内容描述新员工手册文字内容描述</view>
+      <view class='flex'>
+        <view class='datatime'>
+          <image src='/images/datatime.png'></image>
+          <text>2019-2-14</text>
+        </view>
+        <view class='readnum'>
+          <image src='/images/readnum.png' class='readicon'></image>
+          <text>23695</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='course-item'>
+    <view class='course_banner'>
+      <image src='/images/course_banner.png'></image>
+    </view>
+    <view class='course-item-right'>
+      <view class='titles'>新员工手册</view>
+      <view>新员工手册文字内容描述新员工手册文字内容描述</view>
+      <view class='flex'>
+        <view class='datatime'>
+          <image src='/images/datatime.png'></image>
+          <text>2019-2-14</text>
+        </view>
+        <view class='readnum'>
+          <image src='/images/readnum.png' class='readicon'></image>
+          <text>23695</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> -->
+
+<!-- 企业社刊 -->
+<view>
+  <view class='news'>
+    <text class='left'>企业社刊</text>
+    <view class='right' bindtap='BulletinTap'>
+      <text>查看更多</text>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+  <!-- 横向滑块 -->
+  <scroll-view class="image-group" scroll-x="true">
+    <navigator class='scroll-view-item' wx:for='{{scrollviewList}}' url='{{item.url}}'>
+      <view>
+        <image src="{{item.src}}"></image>
+      </view>
+      <text>{{item.time}}</text>
+    </navigator>
+  </scroll-view>
+
+</view>

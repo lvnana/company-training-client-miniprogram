@@ -1,0 +1,40 @@
+/* pages/IntegralDetail/IntegralDetail.wxss */
+.header{
+  width: 100%;
+  text-align: center;
+  padding: 15rpx 0rpx;
+  font-size: 30rpx;
+  background-color: #eee;
+}
+.red_size{
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #CA0915;
+}
+.integralList{
+  padding: 0rpx 40rpx 40rpx;
+}
+
+.integral-item{
+  display: flex;
+  font-size: 30rpx;
+  justify-content: space-between;
+  padding: 10rpx 5rpx 0rpx; 
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.titles{
+  font-size: 30rpx;
+}
+.datatimes{
+  font-size: 24rpx;
+  color: #666;
+  margin-top:5rpx;
+}
+.datatimes text{
+  margin-right: 15rpx;
+}
+.addPoints{
+line-height:85rpx;
+ color: #CA0915;
+ font-weight: 600;
+}

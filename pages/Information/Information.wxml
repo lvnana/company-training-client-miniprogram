@@ -1,0 +1,34 @@
+<!--pages/Information/Information.wxml-->
+<view class="coursel">
+  <swiper class='indexSwiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="800" indicator-color="#fff" indicator-active-color="#0081ff" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key=''>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='strategy'>
+ <navigator class='strategy-item' wx:for='{{strategyList}}' url='{{item.url}}'>
+      <view class='strategy-content'>
+        <view class='strategy_banner'>
+          <image src='{{item.src}}'></image>
+        </view>
+        <view class='strategy-item-right'>
+          <view class='titles'>{{item.title}}</view>
+          <view>{{item.describe}}</view>
+          <view class='flex'>
+            <view class='datatime'>
+              <image src='{{item.timeicon}}'></image>
+              <text>{{item.datatime}}</text>
+            </view>
+            <view class='readnum'>
+              <image src='{{item.readicon}}' class='readicon'></image>
+              <text>{{item.readnum}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+</view>

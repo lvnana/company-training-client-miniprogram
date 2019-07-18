@@ -1,0 +1,33 @@
+/* pages/exceptionalRecord/exceptionalRecord.wxss */
+.exceptional-item{
+  padding: 20rpx 30rpx 10rpx;
+  border-top: 1rpx solid #f0f0f0;
+  display: flex;
+  font-size: 32rpx;
+}
+.exceptional-item image{
+  width: 70rpx;
+  height: 70rpx;
+  padding: 10rpx;
+  
+}
+.MarginR{
+  width: 100%;
+  margin-left: 20rpx;
+}
+.MarginR .merchant{
+  color: #116DE5;
+}
+.flex{
+  display: flex;
+  font-size: 26rpx;
+  color: #666;
+  margin-top: 10rpx;
+  justify-content: space-between;
+}
+.flex text{
+  margin-right: 15rpx;
+}
+.flex .price{
+  margin-right: 30rpx;
+}

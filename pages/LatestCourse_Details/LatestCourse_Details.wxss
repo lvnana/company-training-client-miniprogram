@@ -1,0 +1,266 @@
+/* pages/LatestCourse_Details/LatestCourse_Details.wxss */
+/* pages/goodLesson_details/goodLesson_details.wxss */
+
+/* .banner{
+  height: 360rpx;
+} */
+
+view, scroll-view, swiper, button, input, textarea, label, navigator, image {
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 360rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.tab {
+  text-align: center;
+  padding: 30rpx 30rpx 20rpx;
+}
+
+.topTabSwiper {
+  display: flex;
+  justify-content: center;
+  font-size: 34rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.topTabSwiper view {
+  margin: 0rpx 90rpx 0rpx;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  color: #f00;
+  border-bottom: 6rpx solid #f00;
+}
+
+.boxtop {
+  padding: 10rpx 30rpx 20rpx;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper {
+  font-size: 28rpx;
+}
+.study_btn{
+  padding: 10rpx;
+    background:#DB1623;
+  color: white;
+  border-radius: 10rpx;
+  font-size:22rpx;
+
+}
+.title-top {
+  padding: 20rpx 0rpx;
+}
+
+.content-t text {
+  padding-right: 30rpx;
+}
+
+.flexes {
+  display: flex;
+  padding: 20rpx 0rpx;
+  position: relative;
+}
+
+.icones {
+  padding-right: 26rpx;
+}
+
+.icones .readicon {
+  width: 37rpx;
+  height: 26rpx;
+}
+
+.strategy-item image {
+  width: 35rpx;
+  height: 28rpx;
+  position: relative;
+  top: 5rpx;
+  padding-right: 6rpx;
+}
+
+.flexes-r image {
+  width: 40rpx;
+  height: 35rpx;
+  margin-left: 14rpx;
+}
+
+.enjoybox {
+  width: 100%;
+  height: 60rpx;
+  background-color: #f0f0f0;
+}
+
+.enjoybox-content {
+  /* height: 60rpx;
+  line-height: 60rpx; */
+  margin-left: 30rpx;
+  position: relative;
+}
+
+.enjoybox image {
+  width: 60rpx;
+  height: 59rpx;
+}
+
+.enjoybox-content text {
+  display: inline-block;
+  position: absolute;
+  top: 10rpx;
+  margin-left: 15rpx;
+  font-size: 30rpx;
+}
+
+.comments {
+  padding: 20rpx 30rpx 10rpx;
+}
+
+.comments_t {
+  padding: 10rpx 0rpx 20rpx;
+}
+
+.Commentbox {
+  display: flex;
+  position: relative;
+  padding-bottom: 10rpx;
+}
+
+.headphoto {
+  width: 80rpx;
+  height: 100rpx;
+}
+
+.headphoto image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.headuser {
+  width: 80rpx;
+  font-size: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #00f;
+}
+textarea{
+  width: 490rpx;
+  height: 120rpx;
+  margin-left: 18rpx;
+  border: 2rpx solid #f0f0f0;
+}
+.btn{
+  width: 80rpx;
+  height: 45rpx; 
+  line-height: 45rpx;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+  border: none;
+  background-color: #169BD5;
+ position: relative;
+ top: 42rpx;
+
+}
+.btn{
+  position: relative;
+}
+.btn text{
+    width: 80rpx;
+    height: 45rpx;
+  display: inline-block;
+ color: white;
+  font-size: 22rpx;
+  line-height: 45rpx;
+  /* background-color: #f00; */
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+}
+.commentslist{
+  padding: 20rpx 30rpx 10rpx;
+  border-top: 1rpx solid #f0f0f0;
+  display: flex;
+}
+.commentslist image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.borwid{
+  display: inline-block;
+  width: 2rpx;
+  height: 30rpx;
+  background-color: #666;
+  margin: 0rpx 10rpx;
+  position: relative;
+  top: 6rpx;
+}
+
+.commentslist{
+  padding-bottom: 20rpx;
+}
+.flex-l text{
+margin-right: 20rpx;
+}
+.flex-r image{
+  width: 32rpx;
+  height: 30rpx;
+}
+.commentslist-top{
+  display: flex;
+   justify-content: space-between;
+}
+.commentslist-r{
+  width: 100%;
+  /* height: 200rpx; */
+  padding: 10rpx 10rpx;
+  /* background-color: #f0f0f0; */
+}
+.flex-r{
+padding-right: 20rpx;
+}
+.commentslist-b{
+  padding: 15rpx 0rpx;
+}
+.assess-title{
+  width: 100%;
+  padding: 10rpx 0rpx 10rpx 30rpx;
+  background-color: #eee;
+  font-size: 32rpx;
+}
+.assesslist-item{
+  display: flex;
+  font-size: 26rpx;
+  padding: 30rpx 40rpx 10rpx 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  justify-content: space-between;
+}
+.assess button{
+  width: 500rpx;
+  margin-top: 45rpx;
+  background:#DB1623;
+  color: white;
+  font-size: 32rpx;
+}

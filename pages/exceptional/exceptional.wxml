@@ -1,0 +1,109 @@
+<!--pages/exceptional/exceptional.wxml-->
+
+<view class='top_hr'></view>
+
+<view class='bigbox'>
+
+  <view class='header'>
+    <view>课程：生鲜陈列规范</view>
+    <view class='flex'>
+      <view>讲师:生鲜贸易商行</view>
+      <view>
+        共收到
+        <text class='red-num'>15</text> 次打赏
+      </view>
+    </view>
+  </view>
+
+  <view class='titles'>
+    <view class='title'> 课程标签</view>
+    <view class='The-label'>
+      <text>简单易懂(6)</text>
+      <text>语速刚刚好(6)</text>
+      <text>声音好听(6)</text>
+      <text>非常实用(6)</text>
+      <text>简单易懂(6)</text>
+    </view>
+  </view>
+  <view class='clear'></view>
+  <view class='exceptional-titles'>
+    <view class='exceptional-title'>
+      <view class='titles'>打赏请随意，谢谢~</view>
+      <view class='exceptional' bindtap='myexceptionalTap'>
+        <image src='/images/exceptional.png'></image>
+        <text>我的打赏</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='exceptionallist'>
+
+    <view class='exceptional-item'>
+      <view class='exceptionalicon'>
+        <image src='/images/Ice_cream.png'></image>
+      </view>
+      <view>冰淇淋</view>
+      <view class='price'>￥3</view>
+    </view>
+
+    <view class='exceptional-item'>
+      <view class='exceptionalicon'>
+        <image src='/images/juice.png'></image>
+      </view>
+      <view>果汁</view>
+      <view class='price'>￥10</view>
+    </view>
+
+    <view class='exceptional-item'>
+      <view class='exceptionalicon'>
+        <image src='/images/coffee.png'></image>
+      </view>
+      <view>咖啡</view>
+      <view class='price'>￥25</view>
+    </view>
+
+    <view class='exceptional-item'>
+      <view class='exceptionalicon'>
+        <image src='/images/gift.png'></image>
+      </view>
+      <view>神秘礼物</view>
+      <view class='price'>?</view>
+    </view>
+
+    <view class='exceptional-item'>
+      <view class='exceptionalicon'>
+        <image src='/images/little_flower.png'></image>
+      </view>
+      <view>小红花</view>
+      <view class='price'>￥6.66</view>
+    </view>
+
+  </view>
+
+  <button class='exceptional_btn' bindtap="toggleDialog">确认打赏</button>
+
+  <view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+    <view class="zan-dialog__mask" bindtap="toggleDialog" />
+    <view class="zan-dialog__container">
+      <view class='moneyes'>请输入打赏金额</view>
+      <input type='text' placeholder='请输入打赏金额'></input>
+      <view class='classification'>请选择支付方式</view>
+      <view class='radioes-item'>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+            <view>
+              <image src='{{item.src}}'></image>
+              <text>{{item.value}}</text>
+            </view>
+            <radio value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+          </label>
+        </radio-group>
+        <view class='prices'>￥：6.66</view>
+      </view>
+
+      <button bindtap='confirmpayTap'>确认</button>
+    </view>
+  </view>
+
+</view>

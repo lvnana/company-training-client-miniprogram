@@ -1,0 +1,18 @@
+<!--pages/forum/forum.wxml-->
+
+<view class='titles'>
+  <view>圈子选择：新兵营</view>
+  <view bindtap='circleFriendsTap'>
+    <button>完成</button>
+  </view>
+</view>
+
+<view class="comment-btn">
+  <button wx:for="{{riderCommentList}}" wx:for-item="item" wx:key="item.index" bindtap="checkboxChange" data-value="{{item.value}}" data-index="{{index}}" checked="{{item.selected}}" class="btn {{item.selected ? 'btn-selected' : ''}}">
+    {{item.title}}
+  </button>
+</view>
+<view class='write' bindtap='writeTap'>
+
+  <image src='/images/writeicon.png'></image>
+</view>

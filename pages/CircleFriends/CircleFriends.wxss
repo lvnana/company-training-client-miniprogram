@@ -1,0 +1,121 @@
+/* pages/CircleFriends/CircleFriends.wxss */
+
+page {
+  border-top: 1rpx solid #f0f0f0;
+}
+.classify_color{
+  color: #CA0915;
+}
+.commentsList {
+  padding: 20rpx 30rpx 40rpx;
+}
+.comments-item{
+margin-bottom: 40rpx;
+}
+.comments-content {
+  display: flex;
+  font-size: 26rpx;
+}
+
+.user_photo image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.comments-content-right {
+  /* background-color: red; */
+  margin-left: 20rpx;
+}
+
+.content-right-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25rpx;
+  font-weight: 600;
+}
+
+.dynamicimg {
+  display: flex;
+  padding: 15rpx 0rpx;
+  justify-content: space-between;
+}
+
+.dynamicimg image {
+  width: 170rpx;
+  height: 170rpx;
+}
+.datatimeicons{
+  display: flex;
+  font-size: 24rpx;
+  color: #666;
+  justify-content: space-between;
+}
+.icones{
+  display: flex;
+  position: relative;
+}
+.icones image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 10rpx;
+  position: relative;
+  top: 5rpx;
+}
+.icones view{
+  margin-left: 30rpx;
+}
+
+
+
+
+.invite {
+  /* display: none; */
+  /* width: 250rpx; */
+  font-size: 25rpx;
+  min-height: 50rpx;
+  /* line-height: 50rpx; */
+  position: relative;
+  margin: 20rpx auto;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  
+}
+.invite:after {
+  content: '';
+  width: 20rpx;
+  height: 20rpx; 
+  position: absolute;
+  top: -11rpx;
+  left: 20rpx;
+  transform: rotate(45deg);
+  background-color: #eee;
+  border: 1px #eee;
+  border-style: solid none none solid ;
+}
+.lovePointUser{
+  display: inline-block;
+  color: #CA0915;
+  /* padding-left: 10rpx; */
+  /* padding: 6rpx 6rpx; */
+
+}
+.lovePointUserall{
+  padding: 15rpx;
+border-bottom: 1rpx solid white;
+}
+.commandUserList{
+color: #666;
+padding: 20rpx 0rpx;
+}
+.commandUserList text{
+margin-left: 15rpx;
+font-size: 24rpx;
+}
+.red_name{
+  font-size: 26rpx;
+ color: #CA0915;
+}
+.commandUser-item{
+  padding: 5rpx 0rpx;
+}

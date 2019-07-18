@@ -1,0 +1,49 @@
+<!--pages/lessonStudy/lessonStudy.wxml-->
+
+<view class='banner'>
+  <image src='/images/study_banner.png'></image>
+</view>
+
+<view class='study-t'>
+  <view>学习笔记</view>
+  <textarea class='textarea'></textarea>
+  <view class='save'>
+    <text>保存</text>
+  </view>
+</view>
+
+<view class='notesbox'>
+  <view class='notes-content'>
+    <image src='/images/notes.png'></image>
+    <text>我的笔记</text>
+  </view>
+</view>
+
+<view class='noteslist'>
+
+
+  <view class='notes-item'>
+    <text class='left-t'>2019-12-14</text>
+    <text class='left-t'>10:14</text>
+    <text class='right-t'>这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容</text>
+  </view>
+  <view class='notes-item'>
+    <text class='left-t'>2019-12-14</text>
+    <text class='left-t'>10:14</text>
+    <text  class='right-t'>这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容</text>
+  </view>
+    <view class='notes-item'>
+    <text class='left-t'>2019-12-14</text>
+    <text class='left-t'>10:14</text>
+    <text  class='right-t'>这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容</text>
+  </view>
+    <view class='notes-item'>
+    <text class='left-t'>2019-12-14</text>
+    <text class='left-t'>10:14</text>
+    <text  class='right-t'>这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容这节课主要讲述的内容</text>
+  </view>
+
+
+
+
+</view>

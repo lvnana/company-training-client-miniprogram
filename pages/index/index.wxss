@@ -1,0 +1,240 @@
+.tower-swiper .tower-item {
+  transform: scale(calc(0.5 + var(--index) / 10));
+  margin-left: calc(var(--left) * 100rpx - 150rpx);
+  z-index: var(--index);
+}
+
+.bigbox {
+  padding: 12rpx 0rpx;
+}
+
+.top_calendar {
+  margin-top: 25rpx;
+  width: 100%;
+  height: 110rpx;
+  line-height: 110rpx;
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.calendar {
+  display: inline-block;
+  position: absolute;
+  top: 73rpx;
+  left: 30rpx;
+  font-size: 28rpx;
+}
+
+.calendar image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.calendar text {
+  position: relative;
+  top: -5rpx;
+  padding-left: 10rpx;
+  color: #ca0915;
+}
+
+view, scroll-view, swiper, button, input, textarea, label, navigator, image {
+  box-sizing: border-box;
+}
+
+swiper image {
+  width: 100%;
+  height: 150px;
+}
+
+/* 
+.card-swiper swiper-item {
+  width: 570rpx !important;
+  left: 90rpx;
+  box-sizing: border-box;
+  padding: 10rpx 0rpx 0rpx;
+  overflow: initial;
+}
+
+swiper-item {
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.card-swiper swiper-item .swiper-item {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 10rpx;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in 0s;
+  overflow: hidden;
+} */
+
+/* .listicon {
+  padding: 10rpx;
+} */
+
+.cu-list-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cu-list-bottom {
+  display: flex;
+}
+
+.cu-item {
+  width: 25%;
+  text-align: center;
+  padding: 30rpx 10rpx 10rpx;
+}
+
+.cu-item image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.cu-item text {
+  font-size: 30rpx;
+  position: relative;
+  top: -15rpx;
+}
+
+/* .icon-right{
+  width: 40rpx;
+  height: 20rpx;
+} */
+
+.news, .course {
+  display: flex;
+  width: 100%;
+  font-size: 34rpx;
+  justify-content: space-between;
+  padding: 20rpx 35rpx;
+}
+
+.right {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.right_click {
+  width: 42rpx;
+  height: 37rpx;
+  position: relative;
+  top: 10rpx;
+}
+
+.new-item {
+  display: flex;
+  width: 100%;
+  font-size: 30rpx;
+  justify-content: space-between;
+  padding: 10rpx 40rpx 10rpx 30rpx;
+}
+
+.overflow {
+  width: 55%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.datatimes {
+  color: #999;
+  font-size: 28rpx;
+}
+.datatimes text{
+margin-left: 15rpx;
+}
+.course-item {
+  display: flex;
+  width: 100%;
+  font-size: 28rpx;
+  padding: 20rpx 20rpx;
+}
+
+.course_banner {
+  padding-left: 15rpx;
+}
+
+.course_banner>image {
+  width: 224rpx;
+  height: 180rpx;
+  /* background-color: #666; */
+  border-radius: 10rpx;
+}
+
+.course-item-right {
+  width: 65%;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  color: #999;
+  /* background-color: #666; */
+}
+
+.titles {
+  font-size: 32rpx;
+  color: black;
+  padding-bottom: 20rpx;
+}
+
+.flex {
+  display: flex;
+  padding-top: 18rpx;
+}
+
+.flex image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.datatime text {
+  /* height: 32rpx;
+  line-height: 32rpx; */
+  display: inline-block;
+  padding-left: 10rpx;
+  position: relative;
+  top: -5rpx;
+}
+
+.readnum {
+  margin-left: 50rpx;
+  /* text-align: center; */
+}
+
+.readnum text {
+  display: inline-block;
+  padding-left: 13rpx;
+  /* position: relative;
+  top: -1rpx; */
+}
+
+.flex .readicon {
+  width: 32rpx;
+  height: 28rpx;
+  position: relative;
+  top: 5rpx;
+}
+
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 20rpx;
+  padding: 0rpx 30rpx 30rpx;
+}
+
+.scroll-view-item {
+  display: inline-block;
+  text-align: center;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.scroll-view-item image {
+  display: inline-block;
+  width: 148rpx;
+  height: 196rpx;
+  margin-right: 20rpx;
+}

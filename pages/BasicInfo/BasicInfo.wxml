@@ -1,0 +1,32 @@
+<!--pages/BasicInfo/BasicInfo.wxml-->
+<view class='bigBox'>
+
+<view class='flex-item'>
+<text class='headimg'>头像</text>
+<image src='/images/userheadimg.png'></image>
+</view>
+
+<view class='flex-item'>
+<text>昵称</text>
+<text>为了生活为搬砖</text>
+</view>
+
+
+<view class='flex-item'>
+<text>性别</text>
+<text>女</text>
+</view>
+
+
+<view class='flex-item'>
+<text>工号</text>
+<text>37563</text>
+</view>
+
+
+<view class='flex-item'>
+<text>联系方式</text>
+<text>189****6538</text>
+</view>
+
+</view>

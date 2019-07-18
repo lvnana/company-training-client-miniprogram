@@ -1,0 +1,69 @@
+/* pages/Bulletin_details/Bulletin_details.wxss */
+
+/* element.style {
+height:1140px;
+
+} */
+
+.swiper-box {
+  width: 100%;
+  height: 1140rpx;
+  position: relative;
+}
+.swiper-box image {
+  width: 100%;
+  height: 1140rpx;
+}
+
+.swiper-box .right_click {
+  width: 75rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 520rpx;
+  right: 10rpx;
+  z-index: 1;
+}
+.swiper-box .left_click {
+  width: 75rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 520rpx;
+  left: 10rpx;
+   z-index: 1;
+}
+
+.footer {
+  width: 100%;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+
+.footer_content .readicon {
+  width: 33rpx;
+  height: 27rpx;
+}
+
+.footer_content {
+  display: flex;
+  /* background: #f00; */
+  justify-content: space-around;
+  padding: 3rpx 20rpx 15rpx 80rpx;
+}
+
+.footer_content text {
+  position: relative;
+  padding: 0rpx 10rpx;
+}
+
+.footer_content .textes {
+  position: relative;
+  top: 4rpx;
+}
+
+.footer_content image {
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  top: 9rpx;
+}

@@ -1,0 +1,48 @@
+<!--pages/ApprovedMemo/ApprovedMemo.wxml-->
+<view class='select_box'>
+  <view class='flexes'>
+    <view class='select' catchtap='selectTap'>
+      <text class='select_text'>{{selectData[index]}}</text>
+      <image class='select_img {{show&&"select_img_rotate"}}' src='/images/down_click.png'></image>
+    </view>
+    <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+      <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='strategy'>
+  <view class='strategy-item' wx:for='{{strategyList}}'>
+
+
+    <view class='strategy-content'>
+
+      <view class='strategy_banner'>
+        <image src='{{item.src}}'></image>
+      </view>
+
+
+
+      <view class='strategy-item-right'>
+
+
+        <view class='float-l'>
+          <view class='titles'>{{item.title}}</view>
+          <image src='{{item.timeicon}}' class='timeicon'></image>
+          <text>{{item.data}}</text>
+          <text>{{item.time}}</text>
+        </view>
+        <view class='float-r'>
+        <text>成绩：</text>
+          <text class='score'>{{item.score}}</text>
+          <text>分</text>
+        </view>
+
+      </view>
+    </view>
+
+
+
+  </view>
+</view>

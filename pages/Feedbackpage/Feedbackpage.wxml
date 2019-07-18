@@ -1,0 +1,62 @@
+<!-- pages/Feedbackpage/Feedbackpage.wxml -->
+<view>
+
+  <view>
+    <view class='top_title'>请你选择您遇到的问题类型（必选）</view>
+
+    <!-- <view class="comment-btn">
+      <button wx:for="{{riderCommentList}}" wx:for-item="item" wx:key="item.index" bindtap="checkboxChange" data-value="{{item.value}}" data-index="{{index}}" checked="{{item.selected}}" class="btn {{item.selected ? 'btn-selected' : ''}}">
+        {{item.title}}
+      </button>
+    </view> -->
+
+    <view class='button_container'>
+      <block wx:for="{{buttons}}" wx:key="buttons">
+        <button class='{{item.checked?"checked_button":"normal_button"}}' data-id='{{item.id}}' bindtap='radioButtonTap'>{{item.name}}</button>
+      </block>
+    </view>
+
+
+  </view>
+  <view class='Margin'></view>
+
+  <view class='contentes'>
+    <input type='text' placeholder='描述问题的详细情况，有助于我们快速帮你解决（选填)' placeholder-class='placeholder'></input>
+    <view class="image_content">
+      <view class='image' style='display:{{hideAdd?"none":"block"}}'>
+        <image bindtap="chooseimage" class="moment_img" src='/images/add-icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='Margin'></view>
+  <view class='inputbox'>
+    <input type='text' placeholder='手机号/邮箱/QQ,方便我们与你联系 （选填）' placeholder-class='placeholder'></input>
+  </view>
+
+  <view class='Margin'></view>
+
+  <view class='footer'>
+    <view class='justflex'>
+      <view class='FAQ'>常见问题</view>
+      <view class='searchicon'>
+        <image src='/images/search.png'></image>
+        <input type='text' placeholder='搜一搜'></input>
+      </view>
+    </view>
+    <view class='justflex' bindtap='QuestionAnswerTap'>
+      <view>视频发布不成功怎么办？</view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+
+    <view class='justflex' bindtap='QuestionAnswerTap'>
+      <view>缓存时卡顿或缓存不了如何解决?</view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+
+
+  </view>
+
+
+
+  <button class='footer_btn'>提交</button>
+</view>

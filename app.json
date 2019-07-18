@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/forum/forum",
+    "pages/mine/mine",
+    "pages/liveStreaming/liveStreaming",
+    "pages/growth/growth",
+    "pages/speedup/speedup",
+    "pages/staff/staff",
+    "pages/Bulletin/Bulletin",
+    "pages/Information/Information",
+    "pages/case/case",
+    "pages/promote/promote",
+    "pages/goodLesson/goodLesson",
+    "pages/Bulletin_details/Bulletin_details",
+    "pages/Information_details/Information_details",
+    "pages/goodLesson_details/goodLesson_details",
+    "pages/lessonStudy/lessonStudy",
+    "pages/exceptional/exceptional",
+    "pages/exceptionalSuccess/exceptionalSuccess",
+    "pages/exceptionalRecord/exceptionalRecord",
+    "pages/myexceptionalRecord/myexceptionalRecord",
+    "pages/examine/examine",
+    "pages/published/published",
+    "pages/BasicInfo/BasicInfo",
+    "pages/degreeSystem/degreeSystem",
+    "pages/Feedbackpage/Feedbackpage",
+    "pages/Changepassword/Changepassword",
+    "pages/WatchHistory/WatchHistory",
+    "pages/ApprovedMemo/ApprovedMemo",
+    "pages/myFavorite/myFavorite",
+    "pages/myMedal/myMedal",
+    "pages/QuestionAnswer/QuestionAnswer",
+    "pages/IntegralMall/IntegralMall",
+    "pages/IntegralDetail/IntegralDetail",
+    "pages/ForRecord/ForRecord",
+    "pages/CircleFriends/CircleFriends",
+    "pages/SigninPage/SigninPage",
+    "pages/Growingtree/Growingtree",
+    "pages/LatestCourse_Details/LatestCourse_Details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#CA0915",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/indexicon.png",
+        "selectedIconPath": "/images/red_indexicon.png"
+      },
+      {
+        "pagePath": "pages/liveStreaming/liveStreaming",
+        "text": "直播",
+        "iconPath": "/images/liveicon.png",
+        "selectedIconPath": "/images/red_liveicon.png"
+      },
+      {
+        "pagePath": "pages/forum/forum",
+        "text": "论坛",
+        "iconPath": "/images/exchangeicon.png",
+        "selectedIconPath": "/images/red_exchangeicon.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/mineicon.png",
+        "selectedIconPath": "/images/red_mineicon.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+<!--pages/published/published.wxml-->
+<!-- <button bindtap="send" style='margin-right:5px;margin-left:5px'>发布</button> -->
+<view class='page'>
+  <textarea class='text' bindinput="input" placeholder="这一刻的想法..." placeholder-class='placeholder' />
+  <view class="image_content">
+    <view class='image' wx:for="{{img_url}}">
+      <image class="moment_img" src="{{item}}"></image>
+    </view>
+    <view class='image' style='display:{{hideAdd?"none":"block"}}'>
+      <image bindtap="chooseimage" class="moment_img" src='/images/add.png'></image>
+    </view>
+  </view>
+
+
+  <view class='flexBox'>
+    <view class='whoCan'>
+      <image src='/images/whoCan.png'></image>
+      <text>可见范围</text>
+    </view>
+    <view class='right_click'>
+    <text>公开</text>
+    <image src='/images/right_click.png'></image>
+    </view>
+  </view>
+    <view class='flexBox'>
+    <view class='relevant'>
+      <image src='/images/relevant.png'></image>
+      <text>可见范围</text>
+    </view>
+    <view class='right_click'>
+    <image src='/images/right_click.png'></image>
+    </view>
+  </view>
+
+
+</view>

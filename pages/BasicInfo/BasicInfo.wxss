@@ -1,0 +1,24 @@
+/* pages/BasicInfo/BasicInfo.wxss */
+page{
+  /* padding: 20rpx 20rpx; */
+  border-top: 1rpx solid #f0f0f0;
+}
+.bigBox{
+padding: 0rpx 40rpx;
+}
+.headimg{
+  text-align: center;
+ position: relative;
+ top: 40rpx;
+}
+.flex-item {
+display: flex;
+padding: 20rpx 20rpx;
+font-size: 30rpx;
+justify-content: space-between;
+border-bottom: 1rpx solid #f0f0f0;
+}
+.flex-item image{
+  width: 120rpx;
+  height: 120rpx;
+}

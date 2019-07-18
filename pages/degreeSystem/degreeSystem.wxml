@@ -1,0 +1,187 @@
+<!--pages/degreeSystem/degreeSystem.wxml-->
+<view class='flex'>
+  <view class='students-item'>
+    <view class='degreeClass'>学童</view>
+    <view class='studentsimg'>
+      <image src='/images/students_A_icon.png'></image>
+    </view>
+    <view class='score'>注册即可</view>
+    <view>当前学位</view>
+  </view>
+
+
+  <view class='students-item'>
+    <view class='degreeClass'>童生</view>
+    <view class='studentsimg'>
+      <image src='/images/students_B_icon.png'></image>
+    </view>
+    <view class='score'>600分</view>
+    <view>当前学位</view>
+  </view>
+
+  <view class='students-item'>
+    <view class='degreeClass'>秀才</view>
+    <view class='studentsimg'>
+      <image src='/images/students_C_icon.png'></image>
+    </view>
+    <view class='score'>800分</view>
+    <view>当前学位</view>
+  </view>
+
+
+  <view class='students-item'>
+    <view class='degreeClass'>贡士</view>
+    <view class='studentsimg'>
+      <image src='/images/students_D_icon.png'></image>
+    </view>
+    <view class='score'>1000分</view>
+    <view>当前学位</view>
+  </view>
+
+  <view class='students-item'>
+    <view class='degreeClass'>举人</view>
+    <view class='studentsimg'>
+      <image src='/images/students_E_icon.png'></image>
+    </view>
+    <view class='score'>1200分</view>
+    <view>当前学位</view>
+  </view>
+
+  <view class='students-item'>
+    <view class='degreeClass'>翰林</view>
+    <view class='studentsimg'>
+      <image src='/images/students_F_icon.png'></image>
+    </view>
+    <view class='score'>1500分</view>
+    <view>当前学位</view>
+  </view>
+
+  <view class='students-item'>
+    <view class='degreeClass'>侍郎</view>
+    <view class='studentsimg'>
+      <image src='/images/students_G_icon.png'></image>
+    </view>
+    <view class='score'>1800分</view>
+    <view>当前学位</view>
+  </view>
+
+  <view class='students-item'>
+    <view class='degreeClass'>尚书</view>
+    <view class='studentsimg'>
+      <image src='/images/students_H_icon.png'></image>
+    </view>
+    <view class='score'>2000分</view>
+    <view>当前学位</view>
+  </view>
+
+
+  <view class='students-item'>
+    <view class='degreeClass'>大学士</view>
+    <view class='studentsimg'>
+      <image src='/images/students_I_icon.png'></image>
+    </view>
+    <view class='score'>2100分</view>
+    <view>当前学位</view>
+  </view>
+
+
+
+</view>
+
+
+
+
+
+
+
+<view class='footer'>
+  <button class='footer-L' bindtap="toggleDialog">学分记录</button>
+  <button class='footer-R' bindtap="creditstoggleDialog">我要修学分</button>
+</view>
+
+<!-- 学分记录 -->
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <view class="zan-dialog__mask" bindtap="toggleDialog" />
+  <view class="zan-dialog__container">
+    <view class='container-item'>
+      <view>货架陈列技能（买）</view>
+      <view class='flexs'>
+        <view>
+          <text>2018-10-12</text>
+          <text>10:30:00</text>
+        </view>
+        <view>300学分</view>
+      </view>
+    </view>
+
+    <view class='container-item'>
+      <view>货架陈列技能（买）</view>
+      <view class='flexs'>
+        <view>
+          <text>2018-10-12</text>
+          <text>10:30:00</text>
+        </view>
+        <view>300学分</view>
+      </view>
+    </view>
+
+    <view class='container-item'>
+      <view>货架陈列技能（买）</view>
+      <view class='flexs'>
+        <view>
+          <text>2018-10-12</text>
+          <text>10:30:00</text>
+        </view>
+        <view>300学分</view>
+      </view>
+    </view>
+
+    <view class='container-item'>
+      <view>货架陈列技能（买）</view>
+      <view class='flexs'>
+        <view>
+          <text>2018-10-12</text>
+          <text>10:30:00</text>
+        </view>
+        <view>300学分</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<!-- 我要修学分 -->
+<view class="credits {{ showsDialog ? 'credits--show' : '' }}">
+  <view class="credits__mask" bindtap="creditstoggleDialog" />
+  <view class="credits__container">
+    <view class='credits-item'>
+      <view> 签到修学分</view>
+      <view>
+        <image src='/images/right_click.png'></image>
+      </view>
+    </view>
+
+
+    <view class='credits-item'>
+      <view> 签到修学分</view>
+      <view>
+        <image src='/images/right_click.png'></image>
+      </view>
+    </view>
+
+        <view class='credits-item'>
+      <view> 签到修学分</view>
+      <view>
+        <image src='/images/right_click.png'></image>
+      </view>
+    </view>
+
+        <view class='credits-item'>
+      <view> 签到修学分</view>
+      <view>
+        <image src='/images/right_click.png'></image>
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,97 @@
+<!--pages/mine/mine.wxml-->
+<!-- <view class='content-list'>
+<view class='mybgi-card' style="background:url('/images/mybgi-card.png')">
+</view> -->
+<view>
+
+
+  <view class='headerBox'>
+    <view class='header-content'>
+      <view class='userheadimg' bindtap='BasicInfoTap'>
+        <image src='/images/userheadimg.png'></image>
+        <view class='usernames'>
+          <view>为了生活而搬砖</view>
+          <view class='IDtext'>ID：375666</view>
+        </view>
+      </view>
+      <view class='Setup'>
+        <image src='/images/Setup.png'></image>
+      </view>
+    </view>
+
+
+  </view>
+
+  <view class='itemized'>
+    <view class='itemized-item'>
+      <view>我的积分</view>
+      <view class='bold'>1121</view>
+    </view>
+    <text class='separator'></text>
+    <view class='itemized-item'>
+      <view>考核次数</view>
+      <view class='bold'>6</view>
+    </view>
+    <text class='separator'></text>
+    <view class='itemized-item'>
+      <view>签到次数</view>
+      <view class='bold'>27</view>
+    </view>
+  </view>
+
+
+  <!-- 卡片背景以及item -->
+  <view class="rootlist">
+    <view class='boxbgc'>
+      <image class='background-image' src='/images/mybgi-card.png' mode="aspectFill"></image>
+    </view>
+
+    <view class="content">
+      <navigator class='rootlist-item' wx:for='{{rootlist}}' url='{{item.url}}'>
+        <!-- bindtap='degreeSystemTap' -->
+        <view class='icones'>
+          <image src='{{item.src}}'></image>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='right_click'>
+          <image src='/images/right_click.png'></image>
+        </view>
+      </navigator>
+      <view class='rootlist-item' bindtap="toggleDialog">
+        <view class='icones'>
+          <image src='/images/updateicon.png'></image>
+          <text>检查更新</text>
+        </view>
+        <view class='right_click'>
+          <image src='/images/right_click.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+
+<!-- 弹窗内容 -->
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <view class="zan-dialog__mask" />
+  <view class="zan-dialog__containers">
+    <view class='rootlists'>
+      <view class='boxbgi'>
+        <image class='background-images' src='/images/versionbgi.png' mode="aspectFill"></image>
+      </view>
+      <view class='contentes'>
+        <view>最新版本：v1.0.1</view>
+        <view>最新版本大小：11.22M</view>
+        <view class='updates'>
+          <view>更新内容</view>
+          <view>1、修复与H5的交互问题</view>
+          <view>2、上传视频更加快速</view>
+        </view>
+        <button>立即更新</button>
+      </view>
+    </view>
+    <image src='/images/closeicon.png' class='closeBox' bindtap="toggleDialog"></image>
+  </view>
+
+</view>

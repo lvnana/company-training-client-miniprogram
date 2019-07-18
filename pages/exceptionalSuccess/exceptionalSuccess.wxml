@@ -1,0 +1,19 @@
+<!--pages/exceptionalSuccess/exceptionalSuccess.wxml-->
+<!--pages/confirmpay/confirmpay.wxml-->
+<view class='confirmpay-banner'>
+  <image src='/images/confirmpay_banner.png'></image>
+</view>
+<view class='confirmsuccess'>
+  <image src='/images/confirmsuccess.png'></image>
+  <view class='confirmsuccess-title'>打赏成功</view>
+  <view class='confirmsuccess-btn'>
+  <view class='confirmsuccess-btnfL' bindtap='btnfLTap'>查看记录</view>
+    <view class='confirmsuccess-btnR'>返回课程</view>
+  </view>
+</view>
+<view class='footer'>
+
+<view>打赏方式：微信支付</view>
+<view>打赏时间：2019-2-18 15：22</view>
+<view>打赏礼物：6.66元小红花一朵</view>
+</view>

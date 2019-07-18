@@ -1,0 +1,91 @@
+<!--pages/WatchHistory/WatchHistory.wxml-->
+
+<view class='bigbox'>
+  <view class='itemlists'>
+    <view>
+      <view class='top-title'>商品知识</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+  <view class='itemlists'>
+    <view>
+      <view class='top-title'>早市经营指引</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+
+    <view class='itemlists'>
+    <view>
+      <view class='top-title'>服装商品熨烫标准</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+    <view class='itemlists'>
+    <view>
+      <view class='top-title'>清用商行陈列原则</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+    <view class='itemlists'>
+    <view>
+      <view class='top-title'>服装商品熨烫标准</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+      <view class='itemlists'>
+    <view>
+      <view class='top-title'>服装商品熨烫标准</view>
+      <view class='flexs'>
+        <image src='/images/datatime.png' class='timeicon'></image>
+        <text>2019-02-10</text>
+        <text>11:28:00</text>
+      </view>
+    </view>
+    <view>
+      <image src='/images/right_click.png' class='right_click'></image>
+    </view>
+  </view>
+
+
+
+
+</view>

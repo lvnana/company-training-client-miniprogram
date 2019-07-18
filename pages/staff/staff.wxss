@@ -1,0 +1,87 @@
+/* pages/staff/staff.wxss */
+view, scroll-view, swiper, button, input, textarea, label, navigator, image {
+  box-sizing: border-box;
+}
+
+.banner image{
+height: 266rpx;
+width: 100%;
+padding-top: 4rpx;
+}
+.strategy-content{
+  display: flex;
+  /* width: 90%; */
+  /* text-align: center; */
+  padding-bottom: 30rpx;
+   border-bottom: 1rpx solid #eee;
+}
+.strategy-item {
+  /* display: flex; */
+  width: 100%;
+  font-size: 28rpx;
+  padding: 30rpx 20rpx 0rpx;
+
+}
+
+.strategy_banner {
+  padding-left: 15rpx;
+}
+
+.strategy_banner>image {
+  width: 224rpx;
+  height: 180rpx;
+  /* background-color: #666; */
+  border-radius: 10rpx;
+}
+
+.strategy-item-right {
+  width: 65%;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  color: #666;
+  /* background-color: #666; */
+}
+
+.titles {
+  font-size: 32rpx;
+  color: black;
+  padding-bottom: 20rpx;
+}
+
+.flex {
+  display: flex;
+  padding-top: 18rpx;
+}
+
+.flex image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.datatime text {
+  /* height: 32rpx;
+  line-height: 32rpx; */
+  display: inline-block;
+  padding-left: 10rpx;
+  position: relative;
+  top: -5rpx;
+}
+
+.readnum {
+  margin-left: 40rpx;
+  /* text-align: center; */
+}
+
+.readnum text {
+  display: inline-block;
+  padding-left: 13rpx;
+  /* position: relative;
+  top: -1rpx; */
+}
+
+.flex .readicon {
+  width: 32rpx;
+  height: 28rpx;
+  position: relative;
+  top: 5rpx;
+}

@@ -1,0 +1,85 @@
+/* pages/Information_details/Information_details.wxss */
+
+.pageBox {
+  padding: 30rpx 40rpx;
+  /* background-color: #f00; */
+}
+
+.header {
+  /* width: 100%; */
+  font-size: 32rpx;
+  text-align: center;
+  position: relative;
+}
+
+.header-title {
+  padding: 20rpx 0rpx;
+}
+
+.flex {
+  display: flex;
+  font-size: 28rpx;
+  color: #666;
+  justify-content: center;
+}
+
+.flex view {
+  /* padding: 10rpx 20rpx; */
+  margin-left: 10rpx;
+}
+
+.textes {
+  position: relative;
+  top: 1rpx;
+  padding-left: 10rpx;
+}
+
+.flex image {
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  top: 9rpx;
+}
+
+.describe {
+  font-size: 30rpx;
+  line-height: 43rpx;
+  text-indent: 2em;
+  letter-spacing: 1rpx;
+  padding: 20rpx 10rpx;
+}
+
+.describeImg {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+}
+
+.describeImg image {
+  width: 290rpx;
+  height: 300rpx;
+}
+
+.footer {
+  float: right;
+  display: flex;
+  /* position: relative; */
+  padding: 10rpx 20rpx;
+}
+
+.textes {
+  /* position: relative; */
+  font-size: 30rpx;
+  color: #666;
+  padding: 0rpx 10rpx;
+}
+
+.footer image {
+  width: 50rpx;
+  height: 50rpx;
+  position: relative;
+  top: 15rpx;
+}
+.right{
+  margin-left: 20rpx;
+}

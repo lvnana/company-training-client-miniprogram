@@ -1,0 +1,146 @@
+<!--pages/LatestCourse_Details/LatestCourse_Details.wxml-->
+<!--pages/goodLesson_details/goodLesson_details.wxml-->
+<view class='banner'>
+  <image src='/images/education_banner.png'></image>
+</view>
+
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <view class='strategy-item'>
+      <view class='boxtop'>
+        <view class='flex title-top'>
+          <view class='strategy-title'>课程：生鲜陈列规范</view>
+          <view class='study_btn' bindtap='startStudy'>
+            <text>开始学习</text>
+          </view>
+        </view>
+        <view class='content-t'>
+          <text>讲师:生鲜贸易商行</text>
+          <text>课件:PPT</text>
+          <text>上传时间:2019-02-10</text>
+        </view>
+        <view class='flex'>
+          <view class='flexes'>
+            <view class='icones'>
+              <image src='/images/readnum.png' class='readicon'></image>
+              <text class='textes'>23255</text>
+            </view>
+            <view class='icones'>
+              <image src='/images/givelike.png'></image>
+              <text class='textes'>1145</text>
+            </view>
+            <view class='icones'>
+              <image src='/images/message.png'></image>
+              <text class='textes'>4112</text>
+            </view>
+          </view>
+          <view class='flexes flexes-r'>
+            <image src='/images/red_star.png'></image>
+            <image src='/images/share.png'></image>
+          </view>
+        </view>
+      </view>
+      <!-- 打赏 -->
+      <view class='enjoybox'>
+        <view class='enjoybox-content'>
+          <image src='/images/enjoyicon.png'></image>
+          <text bindtap='enjoytap'>我要打赏</text>
+        </view>
+      </view>
+      <!-- 评论 -->
+      <view class='comments'>
+        <view class='comments_t'>全部评论</view>
+        <view class='Commentbox'>
+          <view class='headphoto'>
+            <image src='/images/headphoto.png'></image>
+            <view class='headuser'>阳光_home</view>
+          </view>
+          <textarea></textarea>
+          <button class='btn'>
+            <text>发送</text>
+          </button>
+        </view>
+
+      </view>
+
+      <view class='commentslist'>
+
+        <view class='flex-ls'>
+          <image src='/images/comments.png'></image>
+        </view>
+
+        <view class='commentslist-r'>
+          <view class='commentslist-top'>
+            <view class='flex-l'>
+              <text>阳光_home</text>
+              <text>2019-10-11</text>
+              <text>10:16</text>
+            </view>
+            <view class='flex-r'>
+              <image src='/images/red-like.png'></image>
+              <text>(4)</text>
+              <text class='borwid'></text>
+              <text>回复</text>
+            </view>
+          </view>
+          <view class='commentslist-b'>生活如意，事业高升,前程似锦，美梦成真。年年今日，岁岁今朝,事事顺利，万事如意。 愿与同僚，共分此乐。
+          </view>
+        </view>
+      </view>
+
+      <view class='commentslist'>
+
+        <view class='flex-ls'>
+          <image src='/images/comments.png'></image>
+        </view>
+
+        <view class='commentslist-r'>
+          <view class='commentslist-top'>
+            <view class='flex-l'>
+              <text>阳光_home</text>
+              <text>2019-10-11</text>
+              <text>10:16</text>
+            </view>
+            <view class='flex-r'>
+              <image src='/images/red-like.png'></image>
+              <text>(4)</text>
+              <text class='borwid'></text>
+              <text>回复</text>
+            </view>
+          </view>
+          <view class='commentslist-b'>生活如意，事业高升,前程似锦，美梦成真。年年今日，岁岁今朝,事事顺利，万事如意。 愿与同僚，共分此乐。
+          </view>
+        </view>
+      </view>
+
+      <view class='commentslist'>
+
+        <view class='flex-ls'>
+          <image src='/images/comments.png'></image>
+        </view>
+
+        <view class='commentslist-r'>
+          <view class='commentslist-top'>
+            <view class='flex-l'>
+              <text>阳光_home</text>
+              <text>2019-10-11</text>
+              <text>10:16</text>
+            </view>
+            <view class='flex-r'>
+              <image src='/images/red-like.png'></image>
+              <text>(4)</text>
+              <text class='borwid'></text>
+              <text>回复</text>
+            </view>
+          </view>
+          <view class='commentslist-b'>生活如意，事业高升,前程似锦，美梦成真。年年今日，岁岁今朝,事事顺利，万事如意。 愿与同僚，共分此乐。
+          </view>
+        </view>
+      </view>
+
+    </view>
+  </swiper-item>
+
+
+</swiper>

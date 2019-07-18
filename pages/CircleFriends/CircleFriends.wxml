@@ -1,0 +1,124 @@
+<view class='commentsList'>
+
+  <view class='comments-item'>
+    <view class='comments-content'>
+      <view class='user_photo'>
+        <image src='/images/headphoto.png'></image>
+      </view>
+
+      <view class='comments-content-right'>
+        <view class='content-right-title'>
+          <view>阳光_home</view>
+          <view class='classify_color'>新兵营</view>
+        </view>
+        <view>
+          2019正式加入伊藤这个大家庭，从小事做起,从细节做起，努力学习，好好学习,天天向上fighting!
+        </view>
+        <view class='dynamicimg'>
+          <image src='/images/dynamic_A.png'></image>
+          <image src='/images/dynamic_B.png'></image>
+          <image src='/images/dynamic_C.png'></image>
+        </view>
+        <view class='datatimeicons'>
+          <view>一分钟前</view>
+          <view class='icones'>
+            <view>
+              <image src='/images/zanicon.png'></image>
+              <text>3</text>
+            </view>
+            <view>
+              <image src='/images/discussicon.png'></image>
+              <text>3</text>
+            </view>
+            <view>
+              <image src='/images/shareicon.png'></image>
+            </view>
+          </view>
+        </view>
+
+        <view class='invite'>
+          <view class='lovePointUserall'>
+            <view class='lovePointUser' wx:for="{{lovePointUser}}">{{item}}</view>
+          </view>
+          <view class='commandUserList'>
+            <view wx:for='{{commandUserList}}' class='commandUser-item'>
+              <text class='red_name'>{{item.name}}</text>
+              <text >{{item.text}}</text>
+            </view>
+
+          </view>
+
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+
+
+
+  <view class='comments-item'>
+    <view class='comments-content'>
+      <view class='user_photo'>
+        <image src='/images/headphoto-A.png'></image>
+      </view>
+
+      <view class='comments-content-right'>
+        <view class='content-right-title'>
+          <view>为了生活而搬砖</view>
+          <view class='classify_color'>储备干部</view>
+        </view>
+        <view>
+          2019正式加入伊藤这个大家庭，从小事做起,从细节做起，努力学习，好好学习,天天向上fighting!
+        </view>
+        <view class='dynamicimg'>
+          <image src='/images/dynamic_A.png'></image>
+          <image src='/images/dynamic_B.png'></image>
+          <image src='/images/dynamic_C.png'></image>
+        </view>
+        <view class='datatimeicons'>
+          <view>2019-02-04</view>
+          <view class='icones'>
+            <view>
+              <image src='/images/zanicon.png'></image>
+              <text>3</text>
+            </view>
+            <view>
+              <image src='/images/discussicon.png'></image>
+              <text>3</text>
+            </view>
+            <view>
+              <image src='/images/shareicon.png'></image>
+            </view>
+          </view>
+        </view>
+
+        <view class='invite'>
+          <view class='lovePointUserall'>
+            <view class='lovePointUser' wx:for="{{lovePointUser}}">{{item}}</view>
+          </view>
+          <view class='commandUserList'>
+            <view wx:for='{{commandUserList}}' class='commandUser-item'>
+              <text class='red_name'>{{item.name}}</text>
+              <text >{{item.text}}</text>
+            </view>
+
+          </view>
+
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+</view>

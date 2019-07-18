@@ -1,0 +1,52 @@
+/* pages/myMedal/myMedal.wxss */
+.tab {
+  text-align: center;
+  width: 50%;
+  padding: 30rpx 0rpx 20rpx;
+}
+
+.topTabSwiper {
+  display: flex;
+  justify-content: center;
+  font-size: 34rpx;
+  border-bottom: 15rpx solid #f0f0f0;
+}
+
+.topTabSwiper view {
+  margin: 0rpx 90rpx 0rpx;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  color: #CA0915;
+  border-bottom: 6rpx solid #CA0915;
+}
+
+
+.flex {
+padding: 0rpx 20rpx 150rpx;
+}
+.medal-item{
+ display: inline-block;
+  text-align: center;
+  font-size: 30rpx;
+  color: #666;
+  width: 30.33%;
+  margin: 0rpx 10rpx 30rpx;
+}
+.medalimg{
+  padding: 20rpx 25rpx;
+  background-color: #7D22F9;
+}
+.medalimg image{
+width: 130rpx;
+height: 180rpx;
+}
+.medalname{
+padding: 10rpx 10rpx;
+}

@@ -1,0 +1,130 @@
+/* pages/Feedbackpage/Feedbackpage.wxss */
+
+.top_title{
+  width: 100%;
+  padding: 10rpx 30rpx;
+  font-size: 32rpx;
+  background-color: #f0f0f0;
+}
+/* .comment-btn {
+  padding: 20rpx 10rpx 20rpx 25rpx;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 28rpx;
+  border: 1rpx solid #dcdcdc;
+  background: #fff;
+  border-radius: 4px;
+  margin: 8rpx 10rpx;
+  text-align: center;
+  padding: 0rpx 30rpx;
+}
+
+.btn-selected {
+  color: white;
+  background-color: #FF4848;
+} */
+.Margin{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f0f0f0;
+}
+
+.contentes{
+  font-size: 30rpx;
+  padding: 10rpx 30rpx;
+}
+.image_content {
+  flex-wrap: wrap;
+  padding: 20rpx 30rpx 10rpx;
+}
+.image {
+  display:inline-block;
+  width:25%;
+  margin: 50rpx 10rpx 10rpx;
+}
+
+.moment_img {
+  width: 100rpx;
+  height: 100rpx;
+}
+.footer{
+  padding: 20rpx 30rpx 80rpx;
+  margin-bottom: 30rpx;
+}
+.FAQ{
+  font-size: 32rpx;
+}
+.inputbox{
+  padding: 10rpx 30rpx;
+  font-size: 30rpx;
+}
+.justflex{
+  display: flex;
+  /* padding: 10rpx 30rpx; */
+  font-size: 30rpx;
+  margin: 25rpx 0rpx;
+  justify-content: space-between;
+}
+.searchicon image{
+  width: 33rpx;
+  height: 33rpx;
+  float: left;
+  margin: 12rpx;
+}
+.searchicon{
+  width: 165rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1rpx solid #f0f0f0;
+  border-radius: 45rpx;
+}
+.searchicon input{
+  display: flex;
+}
+.right_click{
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.footer_btn{
+  position: fixed;
+  bottom: 10rpx;
+  width: 100%;
+  margin-top: 50rpx;
+  font-size: 32rpx;
+  color: white;
+  border-radius: 0;
+  border: none;
+  padding: 10rpx;
+  background-color: #DB1623;
+}
+
+
+
+.button_container{
+ padding: 20rpx 10rpx 20rpx 25rpx;
+}
+/* 按钮未选中 */
+.normal_button{
+  display: inline-block;
+  font-size: 28rpx;
+  /* border: 1rpx solid #dcdcdc; */
+  background: #fff;
+  border-radius: 4px;
+  margin: 10rpx 10rpx;
+  text-align: center;
+  padding: 0rpx 30rpx;
+}
+/* 按钮选中 */
+.checked_button{
+  color: white;
+  font-size: 28rpx;
+  display: inline-block;
+   border-radius: 4px;
+  margin: 10rpx 10rpx;
+  text-align: center;
+  padding: 0rpx 30rpx;
+  background-color: #fc8c94;
+}

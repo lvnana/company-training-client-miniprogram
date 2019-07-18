@@ -1,0 +1,50 @@
+<!--pages/SigninPage/SigninPage.wxml-->
+<view class='header-box'>
+
+  <view class='Signin-bgc'>
+    <image src='/images/Signin-bgc.png'></image>
+  </view>
+  <view class='content'>
+    <view>未签到</view>
+    <view>连续13天</view>
+    <view>今日还未签到</view>
+  </view>
+</view>
+
+
+<!--pages/Date/ShowDate.wxml-->
+<view class='containers'>
+  <view class="calendar">
+    <view class="selectMonth">
+      <view class="goleft" bindtap="prevMonth" hover-class="currentSyle">
+        <image src='/images/selectMonth_Left.png' ></image>
+      </view>
+      <view class="date-wrap" style='width:300rpx; text-align:center;'>
+        {{year}} 年 {{month}} 月
+      </view>
+      <view class="goright" bindtap="nextMonth"  hover-class="currentSyle">
+        <image src='/images/selectMonth_Right.png' ></image>
+      </view>
+    </view>
+
+    <view class='showDateInfo'>
+      <view class="week" class='dateWeekStyle'>
+        <view wx:for="{{weekArr}}" wx:for-index="index" wx:for-item="itemWeek" wx:key="key">{{itemWeek}}</view>
+      </view>
+
+      <view class="date" class='dateDayStyle' >
+        <block wx:for="{{dateArr}}" wx:for-index="indexDay" wx:for-item="itemDay" wx:key="key">
+          <view class="{{itemDay.isToDay?'nowDay':''}}" style="margin-left:{{indexDay==0?monthFitstDayWeek*75:0}}rpx">
+            <view catchtap='CurrentDay' data-currentDay="{{itemDay}}">{{itemDay.dateNum}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <!-- <view style='color:red'>选中的日期是:{{selectDate}}</view> -->
+</view>
+
+
+<button class='footer-btn'>签到</button>
+
+

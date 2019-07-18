@@ -1,0 +1,70 @@
+<!--pages/examine/examine.wxml-->
+<view>
+<view class='MultipleChoice'>
+  <view class='radioes-item'>
+    1、食品用品划分为食品小店和用品小店，那么休闲食品的时效计算公式为______。(单选题)
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class='radioes-item'>
+    2、悠悠味佳食品用品锦江区分店，2018年12月的销售增长率的计算公式为______。(单选题)
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{itemes}}">
+        <radio value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+
+  <view class='radioes-item'>
+    3、上好佳佳食品用品锦江区分店，2018年12月的销售增长率的计算公式为______。(多选题)
+    <checkbox-group class="checkbox-group" bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{itemlist}}">
+        <checkbox value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </checkbox-group>
+  </view>
+
+  <view class='radioes-item'>
+    4、上好佳佳食品用品锦江区分店，2018年12月的销售增长率的计算公式为______。(多选题)
+    <checkbox-group class="checkbox-group" bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{itemlist}}">
+        <checkbox value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </checkbox-group>
+  </view>
+
+  <view class='radioes-item'>
+    5、食品用品划分为食品小店和用品小店，那么休闲食品的时效计算公式为______。(单选题)
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class='radioes-item'>
+    6、食品用品划分为食品小店和用品小店，那么休闲食品的时效计算公式为______。(单选题)
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.name}}" color='#fff' checked="{{item.checked}}" />
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+
+</view>
+<button class='footer'>提交试卷</button>
+
+
+</view>

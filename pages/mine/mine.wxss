@@ -1,0 +1,222 @@
+/* pages/mine/mine.wxss */
+
+page {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.headerBox {
+  width: 100%;
+  height: 235rpx;
+  background-color: #fc6a73;
+}
+
+.header-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  color: white;
+}
+
+.IDtext {
+  margin-top: 10rpx;
+}
+
+.userheadimg {
+  display: flex;
+  position: relative;
+  padding: 10rpx;
+}
+
+.userheadimg image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.usernames {
+  position: relative;
+   top: 13rpx; 
+  left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.Setup {
+  position: relative;
+  top: 35rpx;
+  width: 36rpx;
+  height: 36rpx;
+  padding-right: 15rpx;
+}
+
+.Setup image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.itemized {
+  width: 90%;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  top: -60rpx;
+  font-size: 30rpx;
+  padding: 10rpx 0rpx;
+  border-radius: 15rpx;
+}
+
+.itemized-item {
+  width: 33.33%;
+  text-align: center;
+  padding: 20rpx 25rpx;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 32rpx;
+}
+
+.rootlist {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -30rpx;
+}
+
+.boxbgc {
+  width: 90%;
+  height: 100%;
+  /* margin-top: 40rpx; */
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  min-height: 1118rpx;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 3rpx;
+}
+
+.rootlist-item {
+  width: 610rpx;
+  display: flex;
+  font-size: 30rpx;
+  padding: 25rpx 0rpx 22rpx;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1rpx dashed #f0f0f0;
+}
+
+.icones {
+  display: flex;
+}
+
+.right_click {
+  display: flex;
+}
+
+.icones image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.icones  text {
+  margin-left: 10rpx;
+}
+
+.right_click image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.separator {
+  display: inline-block;
+  width: 4rpx;
+  height: 45rpx;
+  background-color: #ccc;
+  position: relative;
+  top: 40rpx;
+}
+
+.zan-dialog__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(112, 112, 112, 0.3);
+  display: none;
+}
+
+.zan-dialog__containers {
+  position: fixed;
+  bottom: 30rpx;
+  transform: translateY(300%);
+  transition: all 0.4s ease;
+  z-index: 12;
+  font-size: 30rpx;
+/* padding: 0rpx 50rpx; */
+}
+
+.zan-dialog--show .zan-dialog__containers {
+  transform: translateY(0);
+}
+
+.zan-dialog--show .zan-dialog__mask {
+  display: block;
+}
+.boxbgi{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+.background-images{
+  position: relative;
+  width: 640rpx;
+  height: 860rpx;
+}
+.rootlists{
+  position: relative;
+padding: 10rpx 60rpx;
+}
+.contentes{
+  position: absolute;
+  top: 380rpx;
+  margin-left: 30rpx; 
+ padding: 30rpx 50rpx;
+font-weight: 600;
+}
+.updates{
+margin-top: 40rpx;
+color: #707070;
+}
+.contentes button{
+  width: 500rpx;
+  margin-top: 70rpx;
+  color: white;
+  font-weight: 500;
+  font-size: 32rpx;
+  border-radius: 0;
+  background-color: #fc6a73;
+}
+.closeBox{
+    width: 60rpx;
+  height: 130rpx;
+  position: relative;
+  /* background-color: red; */
+left: 350rpx;
+top: -17rpx;
+}

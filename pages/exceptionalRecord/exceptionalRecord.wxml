@@ -1,0 +1,132 @@
+<!--pages/exceptionalRecord/exceptionalRecord.wxml-->
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>0.66元</text>
+        <text>支付宝</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-A.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>0.66元</text>
+        <text>微信</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-B.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>10元</text>
+        <text>支付宝</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-C.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>3元</text>
+        <text>支付宝</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-D.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>0.66元</text>
+        <text>微信</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-E.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>0.66元</text>
+        <text>支付宝</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='exceptional-item'>
+  <view>
+    <image src='/images/headphoto-F.png'></image>
+  </view>
+  <view class='MarginR'>
+    <view>打赏"<text class='merchant'>生鲜贸易商行</text>"一朵小红花</view>
+    <view class='flex'>
+      <view>
+        <text>2019-01-19</text>
+        <text>13:46:02</text>
+      </view>
+      <view>
+        <text class='price'>3元</text>
+        <text>支付宝</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+<!--pages/staff/staff.wxml-->
+<view class='banner'>
+  <image src='/images/staff_banner.png'></image>
+</view>
+
+<navigator class='strategy-item' wx:for='{{strategyList}}' url='{{item.url}}'>
+  <view class='strategy-content'>
+    <view class='strategy_banner'>
+      <image src='{{item.src}}'></image>
+    </view>
+    <view class='strategy-item-right'>
+      <view class='titles'>{{item.title}}</view>
+      <view>{{item.describe}}</view>
+      <view class='flex'>
+        <view class='datatime'>
+          <image src='{{item.timeicon}}'></image>
+          <text>{{item.datatime}}</text>
+        </view>
+        <view class='readnum'>
+          <image src='{{item.readicon}}' class='readicon'></image>
+          <text>{{item.readnum}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>

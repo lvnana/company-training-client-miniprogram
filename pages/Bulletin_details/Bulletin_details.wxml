@@ -1,0 +1,57 @@
+<!--pages/Bulletin_details/Bulletin_details.wxml-->
+
+<!-- indicator-dots='{{swiper.indicatorDots}}' -->
+<!-- <view class='ceshi_swiper'>
+  <swiper class='read_swiper'>
+    <block wx:for="{{swiper.imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='ceshi_prev' bindtap='prevImg'>
+  </view>
+  <view class='ceshi_next' bindtap='nextImg'>
+    <image src='/images/right_click.png' class='right_click' bindtap='nextImg'></image>
+  </view>
+</view> -->
+
+<view class="swiper-box">
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+    <swiper-item wx:for="{{movies}}">
+      <image src='{{item.url}}'></image>
+    </swiper-item>
+  </swiper>
+
+  <view>
+    <image src='/images/selectMonth_Right.png' bindtap='rightClick' class='right_click'></image>
+  </view>
+    <view>
+    <image src='/images/selectMonth_Left.png' bindtap='leftClick' class='left_click'></image>
+  </view>
+
+</view>
+
+
+<view class='footer'>
+  <view class='footer_content'>
+    <view>
+      <text class='textes'>收藏</text>
+      <image src='/images/five_stars.png'></image>
+    </view>
+    <view class='datatime'>
+      <image src='/images/datatime.png'></image>
+      <text class='textes'>2019-2-14</text>
+
+    </view>
+    <view class='readnum'>
+      <image src='/images/readnum.png' class='readicon'></image>
+      <text class='textes'>23255</text>
+
+    </view>
+    <view class='likenum'>
+      <image src='/images/likenum.png'></image>
+      <text class='textes'>23255</text>
+    </view>
+  </view>
+</view>

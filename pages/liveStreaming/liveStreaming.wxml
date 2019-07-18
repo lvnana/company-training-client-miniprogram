@@ -1,0 +1,28 @@
+<!--pages/liveStreaming/liveStreaming.wxml-->
+
+<view class='top_hr'></view>
+<view class='Issuenum-item' wx:for="{{IssuenumList}}">
+  <view class='big_banner'>
+    <image src='{{item.src}}'></image>
+  </view>
+  <view class='flexes'>
+    <view class='issuenum'>{{item.issuenum}}</view>
+    <view class='datatime'>
+      <text class='data'>{{item.data}}</text>
+      <text class='time'>{{item.time}}</text>
+    </view>
+  </view>
+  <view class='flex'>
+    <view class='user_avatar'>
+      <image src='/images/user_avatar.png'></image>
+      <text>杰克_Skr</text>
+    </view>
+    <view class='watchNow_btn' bindtap='watchNowtap'>
+      <text>立即观看</text>
+    </view>
+
+
+
+  </view>
+
+</view>

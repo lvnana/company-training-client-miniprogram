@@ -1,0 +1,73 @@
+/* pages/published/published.wxss */
+
+.page {
+  border-top: 1rpx solid #f0f0f0;
+  padding: 30rpx 30rpx 30rpx 30rpx;
+}
+.placeholder {
+  color: #666;
+}
+.text {
+  width: 645rpx;
+  height: 240rpx;
+  margin: 20rpx 0rpx 60rpx;
+  font-size: 30rpx;
+  border: 1rpx solid #f0f0f0;
+  border-radius: 20rpx;
+  padding: 20rpx 0rpx 10rpx 20rpx;
+}
+
+.image {
+  width: 33.33%;
+  margin: 20rpx 0rpx;
+}
+
+.moment_img {
+  width: 210rpx;
+  height: 210rpx;
+}
+
+.image_content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rpx 5rpx 80rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.flexBox {
+  display: flex;
+  font-size: 30rpx;
+  color: #666;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #f0f0f0;
+  padding: 25rpx 0rpx;
+}
+
+.flexBox image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.whoCan {
+  display: flex;
+}
+
+.right_click {
+  display: flex;
+}
+
+.whoCan text {
+  margin-left: 10rpx;
+}
+
+.relevant {
+  display: flex;
+}
+
+.relevant text {
+  margin-left: 10rpx;
+}
+
+.right_click text {
+  margin-right: 10rpx;
+}

@@ -1,0 +1,34 @@
+<!--pages/myFavorite/myFavorite.wxml-->
+<view class='select_box'>
+  <view class='flexes'>
+    <view class='select' catchtap='selectTap'>
+      <text class='select_text'>{{selectData[index]}}</text>
+      <image class='select_img {{show&&"select_img_rotate"}}' src='/images/down_click.png'></image>
+    </view>
+    <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+      <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='strategy'>
+  <view class='strategy-item' wx:for='{{strategyList}}'>
+    <view class='strategy-content'>
+      <view class='strategy_banner'>
+        <image src='{{item.src}}'></image>
+      </view>
+      <view class='strategy-item-right'>
+        <view class='titles'>{{item.title}}</view>
+        <view>{{item.describe}}</view>
+        <view class='datatime'>{{item.datatime}}</view>
+        <view class='btnes'>
+          <view class='type'>{{item.type}}</view>
+          <!-- <view class='DOC'>{{item.DOC}}</view>
+          <view class='MV'>{{item.MV}}</view> -->
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

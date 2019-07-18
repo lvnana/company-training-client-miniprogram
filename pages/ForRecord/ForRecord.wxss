@@ -1,0 +1,46 @@
+/* pages/ForRecord/ForRecord.wxss */
+
+.strategy-content {
+  display: flex;
+  /* width: 90%; *//* text-align: center; */
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.strategy-item {
+  /* display: flex; */
+  font-size: 28rpx;
+  padding: 14rpx 20rpx;
+}
+
+.strategy_banner {
+  padding-left: 15rpx;
+}
+
+.strategy_banner>image {
+  width: 224rpx;
+  height: 130rpx;
+  /* background-color: #666; */
+  border-radius: 10rpx;
+}
+
+.strategy-item-right {
+  width: 65%;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 34rpx;
+  /* background-color: #666; */
+}
+
+.titles {
+  font-size: 32rpx;
+  /* font-weight: 600; */
+  color: black;
+  padding-bottom: 25rpx;
+}
+
+.datatimes text {
+  line-height: 40rpx;
+  margin-right: 10rpx;
+}

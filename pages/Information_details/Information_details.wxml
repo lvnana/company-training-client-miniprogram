@@ -1,0 +1,46 @@
+<!--pages/Information_details/Information_details.wxml-->
+
+<view class='pageBox'>
+  <view class='header'>
+    <view class='header-title'>伊藤洋华堂首个购物中心20189年亮相成都</view>
+    <view class='flex'>
+      <view class='datatime'>
+        <image src='/images/datatime.png'></image>
+        <text class='textes'>2019-2-14</text>
+        <text class='time textes'>17:30</text>
+      </view>
+      <view class='readnum'>
+        <image src='/images/readnum.png' class='readicon'></image>
+        <text class='textes'>23255</text>
+      </view>
+      <view class='likenum'>
+        <image src='/images/likenum.png'></image>
+        <text class='textes'>23255</text>
+      </view>
+    </view>
+  </view>
+  <view class='describe'>
+    伊藤洋华堂集团创立于1920年，经过80多年的发展，现拥有60多家公司，业务涉及零售、餐饮、金融、加工制造、出版等。零售业是伊藤洋华堂集团涉足的主要领域，业态包括便利店、大型综合超市、超级市场、百货店、专业店和折扣店。伊藤洋华堂是伊藤洋华堂集团旗下著名的品牌店，以大型综合超市为主，在日本有180多家店铺 。 2002年销售额268亿美元，位列《财富》世界500强企业第161位，2003年再次以272亿美元的销售额名列第148位。
+  </view>
+  <view class='describeImg'>
+    <image src='/images/describeI_left.png'></image>
+    <image src='/images/describeI_right.png'></image>
+  </view>
+
+<view class='footer'>
+<view>
+<text class='textes'>收藏</text>
+<image src='/images/five_stars.png'></image>
+</view>
+<view class='right'>
+<text class='textes'>分享到</text>
+<image src='/images/qq_space.png'></image>
+<image src='/images/qq.png'></image>
+<image src='/images/weibo.png'></image>
+<image src='/images/weChat.png'></image>
+<image src='/images/circlefriends.png'></image>
+</view>
+
+</view>
+
+</view>

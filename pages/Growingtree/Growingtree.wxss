@@ -1,0 +1,156 @@
+/* pages/Growingtree/Growingtree.wxss */
+
+.bigBox {
+  width: 100%;
+  height: 1210rpx;
+  line-height: 1210rpx;
+}
+
+.tree_bgc {
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.tree_bgc>image {
+  width: 100%;
+  height: 1210rpx;
+  position: relative;
+}
+
+.tree_content {
+  width: 70%;
+  height: 260rpx;
+  position: absolute;
+  top: 175rpx;
+  left: 135rpx;
+  padding: 20rpx 20rpx 0rpx;
+}
+
+.tree_content view {
+  display: inline-block;
+}
+
+.small_tree {
+  /* position: absolute; */
+}
+
+.small_tree image {
+  width: 260rpx;
+  height: 260rpx;
+  position: relative;
+  /* top: 40rpx; */
+}
+
+.score {
+  display: inline-block;
+  position: absolute;
+  font-size: 30rpx;
+  color: #db1623;
+  right: 25rpx;
+  margin-top: -70rpx;
+  font-weight: 600;
+}
+
+.tree_two_content {
+  width: 100%;
+  /* height: 500rpx; */
+  position: absolute;
+  top: 140rpx;
+  padding: 90rpx 53rpx 100rpx;
+  /* background-color: red; */
+}
+
+.tree_two_-item {
+  width: 190rpx;
+  height: 280rpx;
+  position: relative;
+  float: left;
+  padding-left: 26rpx;
+}
+
+.tree_two_smalltree {
+  width: 160rpx;
+  height: 190rpx;
+  background-color: rgb(255, 255, 255, 0.7);
+  /* background-color: #F6FBFF; */
+  border: 1rpx solid #666;
+}
+
+.clear {
+  clear: both;
+}
+
+.tree_two_-item image {
+  width: 160rpx;
+  height: 190rpx;
+  position: absolute;
+  text-align: center;
+}
+.tree_two_-item .small_tree_a{
+  margin-top: 25rpx;
+}
+.tree_two_-item .small_tree_c{
+  margin-left: 10rpx;
+}
+.treeScore {
+  position: absolute;
+  display: inline-block;
+  line-height: 0rpx;
+  left: 60rpx;
+  bottom: 57rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #666;
+}
+
+.swiper-box {
+  width: 100%;
+  height: 1210rpx;
+  position: relative;
+}
+
+.left_click {
+  width: 50rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 520rpx;
+  left: 10rpx;
+}
+
+.right_click {
+  width: 50rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 520rpx;
+  right: 10rpx;
+}
+
+.footer-content {
+  width: 67%;
+  height: 100rpx;
+  position: absolute;
+  bottom: 0rpx;
+  margin: 0rpx 50rpx;
+}
+
+.footer-content text {
+  line-height: 40rpx;
+  font-size: 30rpx;
+  float: left;
+  margin: 0rpx 6rpx;
+}
+
+.text_indent {
+  text-indent: 70rpx;
+}
+
+.phase {
+  color: #4685c9;
+}
+
+.grade {
+  color: #f83440;
+  font-size: 28rpx;
+  font-weight: 600;
+}

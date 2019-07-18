@@ -1,0 +1,17 @@
+<!--pages/ForRecord/ForRecord.wxml-->
+
+<view class='strategy-item' wx:for='{{strategyList}}'>
+  <view class='strategy-content'>
+    <view class='strategy_banner'>
+      <image src='{{item.src}}'></image>
+    </view>
+    <view class='strategy-item-right'>
+      <view class='titles'>{{item.title}}</view>
+      <view>{{item.describe}}</view>
+      <view class='datatimes'>
+        兑换时间：<text>{{item.dataes}}</text>
+        <text>{{item.times}}</text>
+      </view>
+    </view>
+  </view>
+</view>

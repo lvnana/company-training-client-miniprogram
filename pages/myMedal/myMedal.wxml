@@ -1,0 +1,149 @@
+<!--pages/myMedal/myMedal.wxml-->
+
+<view class='topTabSwiper'>
+  <view class='tab {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>我的勋章</view>
+  <view class='tab {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>全部勋章</view>
+</view>
+
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <view class='flex'>
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-A.png'></image>
+        </view>
+        <view class='medalname'>学莞新人</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-B.png'></image>
+        </view>
+        <view class='medalname'>勤学好学</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-C.png'></image>
+        </view>
+        <view class='medalname'>进步之星</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-D.png'></image>
+        </view>
+        <view class='medalname'>学习达人</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-E.png'></image>
+        </view>
+        <view class='medalname'>进击学子</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-F.png'></image>
+        </view>
+        <view class='medalname'>课程代表</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-G.png'></image>
+        </view>
+        <view class='medalname'>学习委员</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-H.png'></image>
+        </view>
+        <view class='medalname'>班级顶尖</view>
+      </view>
+
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-I.png'></image>
+        </view>
+        <view class='medalname'>超级学霸</view>
+      </view>
+
+
+    </view>
+  </swiper-item>
+
+
+  <swiper-item>
+    <view class='flex'>
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-A.png'></image>
+        </view>
+        <view class='medalname'>学莞新人</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-B.png'></image>
+        </view>
+        <view class='medalname'>勤学好学</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-C.png'></image>
+        </view>
+        <view class='medalname'>进步之星</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-D.png'></image>
+        </view>
+        <view class='medalname'>学习达人</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-E.png'></image>
+        </view>
+        <view class='medalname'>进击学子</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-F.png'></image>
+        </view>
+        <view class='medalname'>课程代表</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-G.png'></image>
+        </view>
+        <view class='medalname'>学习委员</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-H.png'></image>
+        </view>
+        <view class='medalname'>班级顶尖</view>
+      </view>
+
+      <view class='medal-item'>
+        <view class='medalimg'>
+          <image src='/images/medal-I.png'></image>
+        </view>
+        <view class='medalname'>超级学霸</view>
+      </view>
+
+    </view>
+  </swiper-item>
+</swiper>
+

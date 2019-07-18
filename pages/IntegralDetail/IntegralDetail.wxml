@@ -1,0 +1,29 @@
+<!--pages/IntegralDetail/IntegralDetail.wxml-->
+
+<view class='header'>
+  <text>当前积分：</text>
+  <text class='red_size'>1266</text>
+</view>
+
+<view class='integralList'>
+
+  <view class='integral-item' wx:for='{{integralList}}'>
+
+    <view class='titles'>
+      <view class=''>{{item.titles}}</view>
+      <view class='datatimes'>
+        <text>{{item.datas}}</text>
+        <text>{{item.times}}</text>
+      </view>
+    </view>
+    <view class='addPoints'>{{item.addPoints}}</view>
+
+
+
+  </view>
+
+
+
+
+
+</view>

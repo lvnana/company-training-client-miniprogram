@@ -1,0 +1,86 @@
+/* pages/liveStreaming/liveStreaming.wxss */
+
+.top_hr {
+  width: 100%;
+  height: 1rpx;
+  background: #f0f0f0;
+}
+
+.Issuenum-item {
+  padding: 25rpx 30rpx 15rpx;
+}
+
+.big_banner {
+  display: flex;
+}
+
+.big_banner image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.readicon {
+  width: 34rpx;
+  height: 28rpx;
+}
+
+.flexes {
+  padding-top: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.issuenum {
+  font-size: 32rpx;
+}
+
+.readnum {
+  color: #666;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  position: relative;
+  top: -1rpx;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rpx;
+}
+
+.user_avatar {
+  flex: 1;
+  padding-right: 10rpx;
+  position: relative;
+}
+
+.user_avatar image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.user_avatar>text {
+  position: relative;
+  top: -15rpx;
+  left: 20rpx;
+  color: #666;
+  font-size: 24rpx;
+  }
+
+.datatime>text{
+  font-size: 28rpx;
+  color: #666;
+  padding: 0rpx 6rpx;
+}
+.watchNow_btn {
+  padding: 16rpx 40rpx;
+  background: #0DDD9F;
+  color: white;
+  border-radius: 36rpx;
+  font-size: 26rpx;
+}
+
+/* .watchNow_btn text{
+    padding:10rpx 10rpx;
+ font-size: 26rpx;
+} */

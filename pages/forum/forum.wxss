@@ -1,0 +1,50 @@
+.titles {
+  padding: 20rpx 40rpx;
+  font-size: 34rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles button {
+  width: 135rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 36rpx;
+  color: white;
+  text-align: center;
+  padding: 0rpx 0rpx;
+  background-color: #fc8c94;
+}
+
+.comment-btn {
+  padding: 20rpx 25rpx;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 28rpx;
+  /* border: 1rpx solid #dcdcdc; */
+  background: #fff;
+  border-radius: 4px;
+  margin: 26rpx 20rpx;
+  text-align: center;
+  padding: 0rpx 40rpx;
+  color: #666;
+}
+
+.btn-selected {
+  color: white;
+  background-color: #fc8c94;
+}
+
+.write {
+  position: absolute;
+  right: 30rpx;
+  bottom: 10rpx;
+}
+
+.write image {
+  width: 125rpx;
+  height: 125rpx;
+}

@@ -1,0 +1,91 @@
+<!--pages/Growingtree/Growingtree.wxml-->
+
+<view class='bigBox'>
+
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">
+    <swiper-item>
+      <view class='tree_bgc'>
+        <image src='/images/treeicon_A.png'></image>
+      </view>
+      <view class='tree_content'>
+        <view class='small_tree'>
+          <image src='/images/small_tree_c.png'></image>
+        </view>
+        <view class='score'>1200</view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='tree_bgc'>
+        <image src='/images/treeicon_B.png'></image>
+      </view>
+      <view class='tree_two_content'>
+        <view class='content_flex'>
+          <view class='tree_two_-item'>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_a.png' class='small_tree_a'></image>
+            </view>
+            <view class='clear'></view>
+            <view class='treeScore'>500学分</view>
+          </view>
+
+          <view class='tree_two_-item'>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_b.png' class='small_tree_a'></image>
+            </view>
+            <view class='clear'></view>
+            <view class='treeScore'>800学分</view>
+          </view>
+
+          <view class='tree_two_-item'>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_c.png' class='small_tree_c'></image>
+            </view>
+            <view class='clear'></view>
+            <view class='treeScore'>1000学分</view>
+          </view>
+          <view class='tree_two_-item'>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_d.png'></image>
+            </view>
+            <view class='treeScore'>1200学分</view>
+          </view>
+          <view class='tree_two_-item '>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_e.png'></image>
+            </view>
+            <view class='clear'></view>
+            <view class='treeScore'>1500学分</view>
+          </view>
+          <view class='tree_two_-item'>
+            <view class='tree_two_smalltree'>
+              <image src='/images/small_tree_f.png'></image>
+            </view>
+            <view class='clear'></view>
+            <view class='treeScore'>2000学分</view>
+          </view>
+        </view>
+        <view class='footer-content'>
+          <text class='text_indent'>当前阶段为:</text>
+          <text class='phase'>"发芽期",</text>
+          <text>距离下一阶段</text>
+          <text class='phase'>"成长期"</text>
+          <text>还需</text>
+          <text class='grade'>1200</text>
+          <text>学分</text>
+        </view>
+
+      </view>
+
+
+
+    </swiper-item>
+  </swiper>
+
+
+  <view>
+    <image src='/images/leftClick.png' bindtap='leftClick' class='left_click'></image>
+  </view>
+  <view>
+    <image src='/images/rightClick.png' bindtap='rightClick' class='right_click'></image>
+  </view>
+</view>

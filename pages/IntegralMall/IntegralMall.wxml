@@ -1,0 +1,51 @@
+<!--pages/IntegralMall/IntegralMall.wxml-->
+<view class="coursel">
+  <swiper class='indexSwiper' indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="800" indicator-color="#fff" indicator-active-color="#CA0915" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key=''>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='elastic'>
+  <view>
+    <text>当前积分:</text>
+    <text class='red_size'>1266</text>
+  </view>
+  <view bindtap='IntegralDetailTap'>
+    <image src='/images/red_integralicon.png'></image>
+    <text>积分明细</text>
+  </view>
+  <view class='right-bor' bindtap='ForRecordTap'>
+    <image src='/images/red_exceptionalicon.png'></image>
+    <text>兑换记录</text>
+  </view>
+</view>
+
+<view class='Pointsfor'>积分兑换</view>
+
+<view class='strategy'>
+  <view class='strategy-item' wx:for='{{strategyList}}'>
+    <view class='strategy-content'>
+      <view class='strategy_banner'>
+        <image src='{{item.src}}'></image>
+      </view>
+      <view class='strategy-item-right'>
+        <view class='titles'>{{item.title}}</view>
+        <view class='integral'>
+          <text>{{item.describe}}</text>
+          <text>({{item.remainingnum}})</text>
+        </view>
+        <view class='isChange'>{{item.isChange}}</view>
+        <view class='countdown'>{{item.countdown}}</view>
+      </view>
+      <view class='btnes'>
+        <view class='nowisChange'>{{item.nowisChange}}</view>
+        <view class='insufficient'>{{item.insufficient}}</view>
+        <view class='startSoon'>{{item.startSoon}}</view>
+      </view>
+    </view>
+  </view>
+</view>

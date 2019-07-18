@@ -1,0 +1,60 @@
+/* pages/exceptionalSuccess/exceptionalSuccess.wxss */
+/* pages/confirmpay/confirmpay.wxss */
+.confirmpay-banner{
+  width: 100%;
+}
+.confirmpay-banner image{
+  width: 100%;
+  height: 400rpx;
+  z-index: 1;
+}
+.confirmsuccess{
+ position: relative;
+ text-align: center;
+top: -74rpx;
+left: -1rpx;
+/* background-color: red; */
+}
+.confirmsuccess image{
+  width: 152rpx;
+  height: 152rpx;
+  position: relative;
+
+}
+.confirmsuccess-title{
+  font-size: 32rpx;
+  color: #db1623;
+  text-align: center;
+  margin-top: 10rpx;
+  font-weight: 600;
+}
+.confirmsuccess-btn{
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50rpx auto 10rpx;
+  font-size: 32rpx;
+  /* position: relative; */
+}
+.confirmsuccess-btn .confirmsuccess-btnfL{
+padding: 6rpx 15rpx;
+color: white;
+background-color: #65F1C7;
+border-radius: 10rpx;
+
+}
+.confirmsuccess-btn .confirmsuccess-btnR{
+padding: 6rpx 15rpx;
+color: white;
+background-color: #78B0EC;
+border-radius: 10rpx;
+}
+.footer{
+position: relative;
+padding: 10rpx 30rpx 20rpx 70rpx;
+font-size: 30rpx;
+top: -15rpx;
+}
+.footer view{
+  padding: 10rpx 0rpx;
+}
